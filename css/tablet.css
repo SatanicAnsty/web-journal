@@ -1,0 +1,93 @@
+.wrapper {
+  max-width: 1200px;
+}
+
+.header {
+  min-width: 641px;
+}
+
+.header__top {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 159px;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__main {
+  font-size: var(--main-fs);
+}
+
+/*---------------------TRANDS---------------------*/
+.trands {
+  flex-wrap: wrap;
+}
+
+@media (orientation: portrait) {
+  .card {
+    width: calc(50% - 4px);
+  }
+}
+
+@media (orientation: landscape) {
+  .card {
+    width: calc(25% - 4px);
+  }
+}
+
+/*---------------------WRAPPER-MAIN---------------------*/
+.wrapper__main {
+  gap: 35px;
+  width: calc(100% - 55px);
+}
+
+/*---------------------MAIN---------------------*/
+.blog {
+  position: relative;
+
+  margin-bottom: 42px;
+  max-width: 100%;
+}
+
+.blog:last-child {
+  margin-bottom: 50px;
+}
+
+/*---------------------ASIDE---------------------*/
+.new__post {
+  flex-wrap: nowrap;
+}
+
+/*---------------------FOOTER---------------------*/
+.wrapper__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 22px;
+  width: 100%;
+}
+
+.product {
+  width: calc(50% - 22px);
+}
+
+.product__info {
+  max-width: 260px;
+  position: relative;
+  left: 10px;
+}
+
+.product__footer {
+  position: relative;
+  left: 10px;
+}
